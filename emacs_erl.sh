@@ -56,4 +56,4 @@ function compile_eunit()
 	done
 }
 #compile_eunit $$ &
-erl -name "$node_name" $pa
+erl -name "$node_name" $pa -s emacs_erl_util
